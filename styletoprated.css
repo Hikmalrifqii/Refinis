@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:#FF8C00;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    position: relative;
+    top: 0;
+    z-index: 1000;
+    display: flex; 
+    justify-content: space-between;
+    background: #222; 
+    align-items: center; 
+    padding: 10px 20px; 
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none; 
+    display: flex; 
+    gap: 15px;
+    text-align: center;
+}
+
+.nav-links li a {
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #FF8C00;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0 20px;
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.movie-card h3 {
+    text-align: center;
+    padding: 10px 0;
+    color: #333;
+}
+
+.movie-card p {
+    text-align: center;
+    color: #666;
+}
+
+.watch-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #FF8C00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.watch-button:hover {
+    background-color: #FF8C00;
+}
+
+.footer {
+    background-color: #FF8C00;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

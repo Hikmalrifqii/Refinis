@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="stylescontact.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kontak Kami</h1>
+        <p>Jika Anda memiliki keluhan atau saran, silakan isi form di bawah ini:</p>
+
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Keluhan/Saran:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+    <main>
+        <section class="contact-info">
+            <h2>Informasi Kontak</h2>
+            <p><b>Email    : info@Refinis.com</b></p>
+            <p><b>Telepon  : +62895628236506</b></p>
+            <p><b>Alamat   : Cagar Alam Depok</b></p>
+        </section>
+
+        <section class="map-container">
+            <h2>Lokasi Kantor Refinis</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.894219183054!2d106.81150177370282!3d-6.407626162664519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e952020cebaf%3A0xfe0eb0ad1a948f31!2sCagar%20Alam%20Depok!5e0!3m2!1sid!2sid!4v1734556203773!5m2!1sid!2sid" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+
+</body>
+</html>
